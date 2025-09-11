@@ -1,0 +1,25 @@
+# Article Added
+
+### This event is part of the page load sequence, including virtual page loads in the case of single page apps, and must be pushed between the `Page Load Started` and `Page Load Completed` events.
+
+## Javascript Code
+```js
+window.appEventData = window.appEventData || [];
+appEventData.push({
+  "event": "Article Added",
+    "content": {
+        "articleName": "<articleName>"
+    }
+});
+```
+
+## Variable Definitions
+
+|Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|content.articleName|string|RIA Marketing Lab -Article Add
+Track article added in marketing lab|SECURE 2.0: Navigating plan sponsor conversations|||||||
+
+
+
+
